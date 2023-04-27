@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid; */
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../assets/pexels-maxyne-barcel-10402282\ 1.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+li{
+    list-style: none;
+    padding: 20px;
+}
+button{
+    padding: 10px 40px 10px 40px;
+    background-color: #ff505f;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.left {
+    display: flex;
+    width: 20%;
+    /* padding:50px; */
+    justify-content: center;
+    /* align-items: center; */
+}
+.mid{
+    display: flex;
+    /* width: 30%; */
+    color: #ffc233;
+    gap: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.mid>li{
+    display: flex;
+    align-items: center;
+    line-height: 25px;
+    width: 100px;
+}
+li:first-child{
+    width: 125px;
+}
+.right{
+    width: 20%;
+    justify-content: center;
+    
+    /* align-items: center; */
+}
+.right>button{
+    /* padding: 20px; */
+    display: flex;
+    flex: content;
+    color: antiquewhite;
+    padding: 10px 40px 10px 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    /* justify-content: center; */
+    margin: auto;
+    /* align-items: center; */
+}
+
+/* -----Main----- */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    color: #ffc233;
+    font-family:sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 100px;
+}
+.big-button{
+    color: antiquewhite;
+    padding: 20px 40px 20px 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    margin-top: 35px;
+    font-size: 22px;
+    border: none;
+}
+.bottom{
+    display: flex;
+    float: right;
+    height: 150px;
+    margin-right: 25px;
+}
